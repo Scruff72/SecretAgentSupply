@@ -105,3 +105,18 @@ footer .container {
 	margin: 0 auto;
 	color: white;
 }
+@media only screen and (max-width: 1024px) and (orientation: portrait){
+	nav ul {
+		display: none;
+	}
+	.resp-mobile-nav {
+		display: block;
+		text-align: center;
+	}
+	.product {
+		width: 47%;
+	}
+	.product.glasses {
+		display: none;
+	}
+}
