@@ -37,6 +37,7 @@ header .site-container span {
 	padding: 2rem 3rem;
 }
 .announcement h4 {
+
 	font-size: 1rem;
 	font-weight: bold;
 }
@@ -90,9 +91,12 @@ nav ul{
 	justify-content: space-between;
 }
 .location-info{
+	width: 35%;
+}
+.location-info .title {
+	display: block;
 	background-color: black;
 	color: white;
-	width: 35%;
 	padding: 1rem 2rem;
 }
 footer {
@@ -118,5 +122,39 @@ footer .container {
 	}
 	.product.glasses {
 		display: none;
+	}
+}
+@media only screen and (max-width: 470px) {
+	.main-banner {
+		height: 15rem;
+	}
+	.announcement {
+		position: relative;
+		top: 10rem;
+		width: auto;
+	}
+	.announcement h4 {
+		font-size: 0.77rem;
+		padding: 1rem 2rem;
+	}
+	.announcement h1 {
+		font-size: 1rem;
+	}
+	.product {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.watch {
+		display: none;
+	}
+	.location {
+		flex-wrap: wrap;
+	}
+	.location-info {
+		width: 90%;
+		margin: 0.5rem auto;
+	}
+	footer {
+		text-align: center;
 	}
 }
